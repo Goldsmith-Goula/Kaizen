@@ -6,7 +6,7 @@ import { createContext, useContext, useState, useCallback, HTMLAttributes, Butto
 import { cn } from "@/lib/utils"
 import { Button, buttonVariants } from "@/components/ui/button"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
-import { ChevronLeft } from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority"
 
@@ -208,7 +208,7 @@ const SidebarTrigger = React.forwardRef<HTMLButtonElement, ButtonHTMLAttributes<
             onClick={handleToggle}
             {...props}
           >
-             {children ?? <ChevronLeft className={cn("h-5 w-5 transition-transform duration-300", !isCollapsed && "rotate-180")} />}
+             {children ?? <ChevronRight className={cn("h-5 w-5 transition-transform duration-300", !isCollapsed && "rotate-180")} />}
           </Button>
       );
     }
