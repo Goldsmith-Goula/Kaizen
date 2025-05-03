@@ -95,7 +95,7 @@ export default function DataManagementPage() {
        <Card>
          <CardHeader>
             <CardTitle>Data Management</CardTitle>
-            <CardDescription>Backup your KaizenFlow data or restore from a previous backup.</CardDescription>
+            <CardDescription>Backup your Kaizen data or restore from a previous backup.</CardDescription>
         </CardHeader>
          <CardContent className="space-y-6">
             {/* Export Section */}
@@ -163,7 +163,7 @@ export default function DataManagementPage() {
                     <AlertDialogDescription>
                         You are about to import data from the file: <span className="font-medium">{pendingFile?.name}</span>.
                          <br />
-                         <strong className="text-destructive">This action will permanently overwrite all existing data in KaizenFlow.</strong> Are you sure you want to proceed?
+                         <strong className="text-destructive">This action will permanently overwrite all existing data in Kaizen.</strong> Are you sure you want to proceed?
                      </AlertDialogDescription>
                  </AlertDialogHeader>
                 <AlertDialogFooter>

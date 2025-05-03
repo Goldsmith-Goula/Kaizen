@@ -1,4 +1,4 @@
-# **App Name**: KaizenFlow
+# **App Name**: Kaizen
 
 ## Core Features:
 

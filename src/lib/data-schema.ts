@@ -150,7 +150,7 @@ export interface AppData {
 
 // Local storage keys
 export const LS_KEYS = {
-  APP_DATA: 'kaizenFlowAppData_v1', // Added versioning
+  APP_DATA: 'KaizenAppData_v1', // Added versioning
 };
 
 // Function to generate a unique ID

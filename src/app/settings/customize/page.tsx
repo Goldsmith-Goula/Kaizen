@@ -57,7 +57,7 @@ export default function CustomizeSettingsPage() {
       <Card>
         <CardHeader>
           <CardTitle>Customize Appearance</CardTitle>
-          <CardDescription>Personalize the look and feel of KaizenFlow.</CardDescription>
+          <CardDescription>Personalize the look and feel of Kaizen.</CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">
           {/* Theme Selection */}

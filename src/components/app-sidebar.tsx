@@ -45,7 +45,7 @@ import { usePathname } from 'next/navigation';
 // Mock user data (Consider moving to context or props if needed globally)
 // const user = {
 //   name: "Kaizen User",
-//   email: "user@kaizenflow.app",
+//   email: "user@Kaizen.app",
 // };
 
 export default function AppSidebar() {
@@ -105,7 +105,7 @@ export default function AppSidebar() {
             <path d="M12 8v10"/>
             <path d="M16 12H8"/>
         </svg>
-        <span className="text-lg font-semibold group-data-[state=collapsed]:hidden">KaizenFlow</span>
+        <span className="text-lg font-semibold group-data-[state=collapsed]:hidden">Kaizen</span>
       </SidebarHeader>
       <SidebarContent className="flex-1 overflow-auto">
         <SidebarMenu>

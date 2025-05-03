@@ -12,7 +12,7 @@ import AppHeader from '@/components/app-header';
 const inter = Inter({subsets: ['latin'], variable: '--font-sans'});
 
 export const metadata: Metadata = {
-  title: 'KaizenFlow',
+  title: 'Kaizen',
   description: 'Personal Development Tracking App',
 };
 

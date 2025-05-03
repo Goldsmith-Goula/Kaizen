@@ -205,7 +205,7 @@ export function useAppData() {
     if (typeof window !== 'undefined') {
       const dataStr = JSON.stringify(appData, null, 2);
       const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
-      const exportFileDefaultName = `kaizenflow_backup_${new Date().toISOString().split('T')[0]}.json`;
+      const exportFileDefaultName = `Kaizen_backup_${new Date().toISOString().split('T')[0]}.json`;
 
       const linkElement = document.createElement('a');
       linkElement.setAttribute('href', dataUri);
